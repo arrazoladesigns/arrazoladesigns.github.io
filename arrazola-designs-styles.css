@@ -88,14 +88,26 @@
     
 }
 
-.bar a:hover {
+a{
     text-decoration: none;
     font-family: sans-serif;
-    color: rgb(223, 200, 191);
-}
+
+    /* unvisited link */
+    color: black;
+    }
+
+    /* mouse over link */
+    a:hover {
+    color: rgb(199, 198, 198);
+    }
+
+    /* selected link */
+    a:active {
+    color:white;
+    }
 
 .bar a.active{
-    color: rgb(223, 200, 191);;
+    color: rgba(199, 198, 198); 
 }
 
 
